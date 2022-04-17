@@ -1,2 +1,15 @@
+<section>
+  <ul *ngIf="taskList">
+    <li *ngFor="let item of taskList; let i = index">
+      <input type="checkbox" [(ngModel)]="item.checked" />
+      <input type="text" [(ngModel)]="item.task" />
+
+      <button (click)="teste()">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </li>
+  </ul>
+</section>
+
 <app-todo-input-add-itens></app-todo-input-add-itens>
 <app-todo-button-delete-all></app-todo-button-delete-all>
