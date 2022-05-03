@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PaiComponent } from './pai/pai.component';
+import { FilhoComponent } from './filho/filho.component';
 
 @NgModule({
   declarations: [

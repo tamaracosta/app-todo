@@ -11,6 +11,8 @@ import { TodoListComponent } from './components/todo-list/todo-list.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
+import { PaiComponent } from 'src/app/pai/pai.component';
+import { FilhoComponent } from 'src/app/filho/filho.component';
 
 
 
@@ -20,7 +22,9 @@ import { FormsModule } from '@angular/forms';
     TodoButtonDeleteAllComponent,
     TodoInputAddItensComponent,
     TodoListComponent,
-    HomeComponent
+    HomeComponent,
+    PaiComponent,
+    FilhoComponent
   ],
   imports: [
     CommonModule,
