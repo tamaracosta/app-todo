@@ -26,7 +26,9 @@ export class TodoListComponent implements OnInit {
     if(confirm){
       this.taskList = [];
     }
+  }
 
-
+  setEmitItemTaskList(event: string){
+    this.taskList.push({task: event, checked: false})
   }
 }
